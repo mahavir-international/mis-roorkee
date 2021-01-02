@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 
-import {Container} from 'react-bootstrap'
+import {Jumbotron} from 'react-bootstrap'
 
 export default class Gallery extends Component {
     render() {
         return (
-            <Container>
+            <Jumbotron>
                 <h1>Gallery  Page</h1>
                 <p>
                     This is the Gallery page
                 </p>
-            </Container>
+            </Jumbotron>
         )
     }
 }

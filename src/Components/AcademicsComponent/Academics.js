@@ -6,7 +6,7 @@ export default class Academics extends Component {
             
             <Jumbotron>
                 <h1> Demo Academic Section </h1>
-                Academic Section
+                Academic Section is updated
             </Jumbotron>
         )
     }
