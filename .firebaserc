@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "mis-roorkee"
+    "default": "mis-roorkee",
+    "mis-roorkee": "misroorkee"
   }
 }
