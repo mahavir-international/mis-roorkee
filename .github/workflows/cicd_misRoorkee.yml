@@ -19,4 +19,4 @@ jobs:
         with:
           args: deploy 
         env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MIS_ROORKEE }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN_MIS }}
