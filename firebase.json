@@ -5,6 +5,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
+    "site": "mis-roorkee",
     "public": "build",
     "ignore": [
       "firebase.json",
