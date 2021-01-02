@@ -20,4 +20,29 @@ color: white;
     text-align:center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
+    font-style: italic;
+}
+
+.social{
+    width:100%;
+    text-align:center;
+    padding: auto;
+    margin:auto;
+    
+}
+
+.social a{
+    /* padding:5%; */
+    margin:3%;
+    /* height: 5%; */
+}
+
+.rightLink{
+    text-align:left;
+    margin: 1% auto 0px 20%;
+}
+
+.footerTail{
+    background-color:#0e1116;
+    color:#fff;
 }
