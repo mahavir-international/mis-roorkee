@@ -5,7 +5,7 @@ import './footer.css'
 
 export default function footer() {
     return (
-        <footer md className=" container footerStyle " >
+        <footer md className=" footerStyle " >
             <div className=" bg-dark">
             <div className="row">
                 <div className="col rightLink">
@@ -56,5 +56,5 @@ const footerStyle = {
     height: 'auto',
     width: "100%",
     color:'white',
-    justifyContent: 'center'
+    // justifyContent: 'center'
 }
