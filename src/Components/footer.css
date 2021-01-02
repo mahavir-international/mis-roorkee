@@ -1,0 +1,23 @@
+footer ul.footerright{
+    margin-right: 150px;
+    margin-top: 10px;
+}
+footer {
+    
+    /* padding: auto; */
+    padding-top: 100px;
+    margin:auto;
+}
+
+footer a{
+color: white;
+/* background-color: aqua; */
+
+}
+
+.last{
+    color:white;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}

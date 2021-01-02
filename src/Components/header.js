@@ -15,6 +15,7 @@ export default function header() {
             <Nav.Link href="/gallery">Gallery</Nav.Link>
             <Nav.Link href="/academics">Academics</Nav.Link>
             
+            
             </Nav>
             <Nav>
             {/* <Nav.Link href="#deets">More deets</Nav.Link> */}
