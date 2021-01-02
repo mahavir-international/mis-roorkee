@@ -1,0 +1,22 @@
+
+name: Auto build and deploy website MIS
+
+'on':
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    name: build and execute
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: clean install
+        run: npm ci
+      - name: building project
+        run: npm run build 
+      - uses: w9jds/firebase-action@master
+        with:
+          args: deploy 
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MIS_ROORKEE }}
