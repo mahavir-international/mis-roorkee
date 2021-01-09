@@ -6,7 +6,7 @@ footer {
     
     /* padding: auto; */
     padding-top: 100px;
-    margin:auto;
+    margin-bottom:0px;
 }
 
 footer a{
@@ -20,7 +20,7 @@ color: white;
     text-align:center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .social{
@@ -45,4 +45,5 @@ color: white;
 .footerTail{
     background-color:#0e1116;
     color:#fff;
+    margin-bottom: 0em;
 }
