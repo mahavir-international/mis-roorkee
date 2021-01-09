@@ -24,9 +24,9 @@ export default class StudentForm extends React.Component {
     update = (e) => {
         // console.log("print")
         e.preventDefault();
-        // console.log(this.state);
+        console.log(this.state);
         // alert("test")
-        this.ref.doc(this.state.admissionNumber).
+        this.ref.doc(this.state.admissionNumber.toString()).
         set(this.state).then((docRef) => {
             console.log("log= ",docRef);
             this.setState({ done:'yes'});
