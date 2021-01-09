@@ -4,6 +4,7 @@ import {Container,Row,Col} from 'react-bootstrap'
 import './footer.css'
 
 export default function footer() {
+    const record = 'records';
     return (
         <footer md className=" footerStyle " >
             <div className=" bg-dark">
@@ -18,9 +19,9 @@ export default function footer() {
                 </div>
 
                 <div className="col rightLink">
-                <p><a href="/student-records">Student Records</a> </p>
-                <p><a href="/staff-records">Staff Records</a> </p>
-                <p><a href="/Add-records">Add Records</a> </p>
+                <p><a href={`/${record}`}>Records</a> </p>
+                <p><a href={`/${record}/studentrecords`}>Student Records</a> </p>
+                <p><a href={`/${record}/staffrecords`}>Staff Records</a> </p>
                 </div>
             </div>
 

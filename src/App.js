@@ -11,6 +11,8 @@ import Gallery from './Components/GalleryComponent/Gallery';
 import Home from './Components/HomeComponent/Home';
 import PageNotFound from './Components/PageNotFound';
 import Admission from './Components/AdmissionComponent/Admission';
+import Records from './Components/RecordsComponent/Records';
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
                 <Route exact path="/academics" component={Academics} />
                 <Route exact path="/gallery" component={Gallery} />
                 <Route exact path="/admission" component={Admission} />
+                <Route path="/records" component={Records} />
                 <Route component={PageNotFound} />
               </Switch>
             </Router>
